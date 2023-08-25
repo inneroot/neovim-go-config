@@ -1,9 +1,22 @@
 # NvChad custom config for Go development
 
-Based on [@dreamsofcode-io](https://github.com/dreamsofcode-io/neovim-go-config) [vudeo](https://www.youtube.com/watch?v=i04sSQjd-qo)
+Based on [@dreamsofcode-io](https://github.com/dreamsofcode-io/neovim-go-config) video - [The perfect Neovim setup for Go](https://www.youtube.com/watch?v=i04sSQjd-qo)
 
+## Install Neovim
 
-## Install tools
+[Neovim docs](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+## Install NvChadi
+
+[NvChad docs](https://nvchad.com/docs/quickstart/install)
+
+## Clone go dev config repo to custom NvChad folder
+
+```
+git clone git@github.com:inneroot/neovim-go-config.git ~/.config/nvim/lua/custom
+```
+
+## Install Go tools
 
 ```bash
 go install github.com/incu6us/goimports-reviser/v3@latest
